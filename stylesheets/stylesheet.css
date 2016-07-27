@@ -48,6 +48,19 @@ table {
 Theme Styles
 *******************************************************************************/
 
+
+/* Failed experiment
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('jquery', '1.4.3');
+google.setOnLoadCallback(function()
+    {
+       $('#desc div:not(:first)').hide(); 
+    }
+</script>
+*/
+
+
 body {
   box-sizing: border-box;
   color:#373737;
@@ -270,6 +283,52 @@ Full-Width Styles
   padding: 20px 10px;
   margin: 0 auto;
 }
+
+/* Failed experiment
+#wrapper {
+width:500px;
+}
+
+#tabs {
+width:100%;
+padding:0px;
+margin:0px;
+}
+
+#tabs ul {
+padding:0px;
+margin:0px;
+width:100%;
+}
+
+#tabs li {
+display:block;
+float:left;
+text-align:center;
+background:#ccc;
+border:1px solid #999;
+margin:0px;
+padding:0px;
+width:32.9%;
+color:#999;
+}
+
+#tabs li.active {
+background:#efefef;
+border-bottom:1px solid #efefefef;
+}
+
+#desc{
+width:100%;
+}
+
+#desc div {
+clear:left;
+background:#efefef;
+width:100%;
+height:200px;
+}
+*/
 
 #resume_banner {
   display: block;
