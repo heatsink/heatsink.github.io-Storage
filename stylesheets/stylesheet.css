@@ -279,7 +279,8 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 740px;
+  /* 640 */
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -561,8 +562,7 @@ height:200px;
 Small Device Styles
 *******************************************************************************/
 
-@media screen and (max-width: 580px) {
-/* 480 */
+@media screen and (max-width: 480px) {
 
   body {
     font-size:14px;
@@ -574,8 +574,7 @@ Small Device Styles
 
   .inner {
     min-width: 320px;
-    max-width: 580px;
-    /* 480 */
+    max-width: 480px;
   }
 
   #project_title {
@@ -608,9 +607,7 @@ Small Device Styles
 
   code, pre {
     min-width: 320px;
-    max-width: 580px;
-    /* 480 */
-
+    max-width: 480px;
     font-size: 11px;
   }
 
